@@ -1,7 +1,11 @@
-{
-    я ничего не знаю
-  }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
 
-
-  Какие-то ошибки... ну и ладно,
-  продолжим. add
+h1 {
+  color: #333;
+  text-align: center;
+}
