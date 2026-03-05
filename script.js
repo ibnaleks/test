@@ -1,4 +1,4 @@
-const circle = [{
+const circle = {
   radius: 18,
   calculateArea: function calculateCircleArea() {
     if (this.radius >= 0) {
@@ -7,9 +7,11 @@ const circle = [{
       return false;
     }
   },
-}];
+};
 
-const myCircleArea = circle.calculateArea()
+
+
+const myCircleArea = circle.calculateArea();
 if (myCircleArea === false) {
   console.log("Радиус должен быть положительным числом.");
 } else {
